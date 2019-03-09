@@ -15,5 +15,5 @@ Resources:
   MyFirstEC2: 
     Type: AWS::EC2::Instance
     Properties: 
-    ImageId: ami-095cd038eef3e5074
+      ImageId: ami-095cd038eef3e5074
       KeyName: "EC2Key"
