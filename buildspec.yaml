@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo test here lol
+      - aws
     finally:
       - echo This always runs even if the update or install command fails 
  
