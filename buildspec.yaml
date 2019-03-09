@@ -7,7 +7,7 @@ env:
     LOGIN_PASSWORD: "dockerLoginPassword"
 
 phases:
-  createStack:
+  install:
     commands:
       - echo test here lol
     finally:
