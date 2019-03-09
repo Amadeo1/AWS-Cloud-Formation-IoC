@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo test here lol
-      - aws cloudformation create-stack --stack-name CloudFormationFromGithub CloudFormation.yaml --template-body file://CloudFormation.yaml
+      - aws cloudformation create-stack --stack-name CloudFormationFromGithub --template-body file://CloudFormation.yaml
     finally:
       - echo This always runs even if the update or install command fails 
  
